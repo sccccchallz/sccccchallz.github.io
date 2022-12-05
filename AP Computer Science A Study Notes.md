@@ -1,6 +1,6 @@
 # Introduction
-This is a note for AP Computer Science A. Although there is a major part of this will be shown on the refrence during the AP test; however, it is still important to know how to use them and know and understand how to use additional vital ones for this test. This note is done after fininshing the AP test. It is suggested to type one by yourself 
-</br>
+This is a note for AP Computer Science A. Although there is a major part of this will be shown on the reference during the AP test; however, it is still important to know how to use them and know and understand how to use additional vital ones for this test. This note is done after finishing the AP test. It is suggested to type one by yourself 
+
 # What should you know for the APCS
 ## CONTENT
 - [[#Basic]]
@@ -15,12 +15,12 @@ This is a note for AP Computer Science A. Although there is a major part of this
 	2. [[#Non-Primitive Types]]
 3. [[#Conditional Statements]]
 
-</br>
+
 ## Basic
 ### Style
 1. **Naming Style**
-	When we are going to name the method, variable, anything in Java, it is recommanded to use this `wordWord` style (only use a `word` for most of the variable name). For example, when we are trying to name a method for calculating the length of a String, we can use `stringLength`
-1. Braket Style
+	When we are going to name the method, variable, anything in Java, it is recommended to use this `wordWord` style (only use a `word` for most of the variable name). For example, when we are trying to name a method for calculating the length of a String, we can use `stringLength`
+1. Bracket Style
 	- In AP course, `{` is used in the next line:
 	   ```java For example
 	   public int methodName(String a)
@@ -47,16 +47,15 @@ This is a note for AP Computer Science A. Although there is a major part of this
 ```
 	- The ***Ending*** bracket `}` should be listed like this:
 	   ```java
-	//code block
+    code block
 			}
 	    }
 	}
 	   
 ```
 3. Sign Style
-It is recommanded to put the signs like `+, -, *, /, =` in between two spaces; like how I did in the if statement above.
+It is recommended to put the signs like `+, -, *, /, =` in between two spaces; like how I did in the if statement above.
 
-</br>
 ### Structure
 The basic structure of a java program should look like this:
 ```java
@@ -85,7 +84,7 @@ public class Class {
 The method other than main is not necessary to write a basic program, but it is need when you write this program in **Object-Oriented Program(OOP)** style.
 
 ***It is extremely important to write a comment for your program and every single method that is not clear to see the function(for instance, you don't need to write a comment for getter and accessor method. it is just going to waste your space)***
-</br>
+
 ### Use of Other Classes
 It is common to use classes that is not written in this class, such as `Math or Scanner` class. To use them, we need to import them first. (Here we are only discussing the use of class that is in the Java package. )
 1. Import
@@ -93,7 +92,7 @@ It is common to use classes that is not written in this class, such as `Math or 
 2. Use class method
 	Usually, we import these method to use their method, for example we want to get a random number. 
 	`double randomNum = Math.random();`
-</br>
+
 
 ## Common Classes
 for how to use these class, see [[#Use of Other Classes]]
@@ -108,23 +107,23 @@ This class have a lot of the math references that is static.
 
 
 ## Data Types
-*Data types have the diffrence of primitive and non primitive which basically can be recognized by the way the wrote*
-</br>
+*Data types have the difference of primitive and non primitive which basically can be recognized by the way the wrote*
+
 ###### Primitive Types
 This type are usually in all lower case, in the APCS-A course, people usually have these following types:
 	- int 
 	- double
 	- boolean
-</br>
+
 ###### Non-Primitive Types
 This type usually in the style that STARTS there name with a capitalized letter, which means that they are actually a class that Java have. It means that when using the non-primitive data type, the style of creating new instance of the class could be applied, at the same time, these types can call some methods.
-</br>
+
 Here are some common ones in the Java language:
 	- String
 	- Integer
 	- Boolean
 	- Array
-</br>
+
 ### Declaration, Initialization and Assignment
 Declaration
 
