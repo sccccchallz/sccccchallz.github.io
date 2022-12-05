@@ -51,7 +51,6 @@ This is a note for AP Computer Science A. Although there is a major part of this
 		}
 	    }
 	}
-	   
 	```
 3. Sign Style
 It is recommended to put the signs like `+, -, *, /, =` in between two spaces; like how I did in the if statement above.
