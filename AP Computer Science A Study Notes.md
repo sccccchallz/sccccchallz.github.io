@@ -3,17 +3,17 @@ This is a note for AP Computer Science A. Although there is a major part of this
 
 # What should you know for the APCS
 ## CONTENT
-- [[#Basic]]
+1. [[#Basic]]
 	1. [[#Style]]
 	2. [[#Structure]]
 	3. [[#Use of Other Classes]]
-1. [[#Common Classes]]
+2. [[#Common Classes]]
 	1. [[#Math Class]]
 	    1. [[#Math Class Methods]]
-2. [[#Data Types]]
+3. [[#Data Types]]
 	1. [[#Primitive Types]]
 	2. [[#Non-Primitive Types]]
-3. [[#Conditional Statements]]
+4. [[#Conditional Statements]]
 
 
 ## Basic
@@ -22,37 +22,37 @@ This is a note for AP Computer Science A. Although there is a major part of this
 	When we are going to name the method, variable, anything in Java, it is recommended to use this `wordWord` style (only use a `word` for most of the variable name). For example, when we are trying to name a method for calculating the length of a String, we can use `stringLength`
 1. Bracket Style
 	- In AP course, `{` is used in the next line:
-	   ```java For example
+	```java For example
 	   public int methodName(String a)
 	   {
 	   }
-	   ```
+	```
 	- in google style, `{` is used right after the word of the line:
-	   ```java 
+	```java 
 	   public int methodName(String a){
 	   }
-```
+	```
 	- some other style, `{` is used after the word of the line with a space:
 	```java
        public int methodName(String a) {
 	   }
-```
+	```
 	- All the styles use the `()` after the word ***without*** space, except condition statements
-	   ```java
+	```java
 	   methodName(String a);
 	   
 	   but:
 	   if (x = a) {
 	   }
-```
+	```
 	- The ***Ending*** bracket `}` should be listed like this:
-	   ```java
-    code block
-			}
+	```java
+    	//code block
+		}
 	    }
 	}
 	   
-```
+	```
 3. Sign Style
 It is recommended to put the signs like `+, -, *, /, =` in between two spaces; like how I did in the if statement above.
 
